@@ -26,6 +26,8 @@ public class Aula06EstruturasCondicionais03 {
             case 7:
                 System.out.println("Sabádo");
                 break;
+            default:
+                System.out
         }
     }
 }
