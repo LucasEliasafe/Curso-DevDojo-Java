@@ -27,7 +27,21 @@ public class Aula06EstruturasCondicionais03 {
                 System.out.println("Sabádo");
                 break;
             default:
-                System.out
+                System.out.println("Opção invalida");
+                break;
+        }
+
+        char sexo = 'M';
+        switch (sexo) {
+            case 'M':
+                System.out.println("Masculino");
+                break;
+            case 'F':
+                System.out.println("Feminino");
+                break;
+            default:
+                System.out.println("Inválido");
+                break;
         }
     }
 }
