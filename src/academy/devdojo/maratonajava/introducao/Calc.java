@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 import java.util.Scanner;
 public class Calc {
-    static public void maain(String[] args) {
+    static public void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         Numero n1 = new Numero();
